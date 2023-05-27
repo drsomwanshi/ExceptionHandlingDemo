@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter No1"
+        android:layout_margin="10dp"
+        android:textSize="14pt"
+        android:id="@+id/txtno1"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter No2"
+        android:layout_margin="10dp"
+        android:textSize="14pt"
+        android:id="@+id/txtno2"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:layout_margin="10dp"
+        android:textSize="14pt"
+        android:id="@+id/b1"
+        android:onClick="division"
+        ></Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Division"
+        android:layout_margin="10dp"
+        android:textSize="14pt"
+        android:id="@+id/txtans"
+        ></EditText>
+
+
+</LinearLayout>
